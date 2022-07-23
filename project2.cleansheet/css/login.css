@@ -1,0 +1,161 @@
+body{
+       margin: 0;
+       padding: 0;
+       background: url(../img/pexels-andre-furtado-370717.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size:cover ;
+       height: 100vh;
+      
+}
+   .center{
+       width:400px;
+       height: 450px;
+       
+       background:linear-gradient(125deg, rgb(3,2,1),rgb(82, 80, 78),rgb(22, 11, 1));
+       border-radius: 10px;
+       border: 1px solid ;
+       color: rgb(10, 230, 29);
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       box-sizing: border-box;
+       font-family: montserrat;
+       
+
+   }
+
+    #avatar{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+      transform: translateX(-50%); 
+      
+      
+    
+    }
+    h1{
+        text-align: center;
+        padding: 40px 0 10px 0;
+        /* border-bottom:1px solid silver; */
+    }
+    .center form{
+        padding: 0 40px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+        form .textfield{ 
+             position: relative; 
+             border-bottom: 2px solid #adadad;
+             margin:30px 0;
+            }
+
+            .textfield input{
+                width: 100%;
+                padding: 0  5px;
+                height:40px;
+                font-size: 16px;
+                border: none;
+                background: none;
+                outline: none;
+                color: #0bddec;
+                font: 400;
+            
+
+            }
+      .textfield label{
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            pointer-events: none;
+            font-size: 16px;
+            transition: .5s;
+        }
+   .textfield span::before{
+       content: '';
+       position: absolute;
+       top: 40px;
+       left: 0;
+       width: 0;
+       height: 2px;
+       background: #2691d9;
+
+
+   }
+   
+   .textfield input:focus ~ label  ,
+   .textfield input:valid ~ label {
+       top: -5px;
+       color: #2691d9;
+       
+   }
+   .textfield input:focus ~ span::before ,
+   .textfield input :valid ~ span::before{
+         width: 100%;
+   }
+   .forgetpwd a{
+       color: rgb(7, 218, 137);
+      margin: 20px 0 20px 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .forgetpwd a:hover{
+        text-decoration: underline rgb(235, 7, 185);
+        transition: .5s;
+
+    }
+    button{
+        margin-top: 20px;
+        margin-left: 5px;
+        height: 50px;
+        width: 100%;
+        background-color: #2691d9;
+        border-radius: 25px;
+        font-size: 18px;
+        font-family: montserrat;
+        color:#e9f4fb;
+        font-weight: 700;
+        border: 1px solid;
+        outline: none;
+
+    } 
+    button:hover{
+        border-color: #2691d9;;
+        transition: .5s;
+        cursor: pointer;
+
+    }
+ .signup {
+     margin-top: 30px;
+    
+     font-size: 16px;
+      
+ }   
+ .signup p{
+     position: absolute;
+     left: 25%;
+     top: 86.8%;
+ }
+.signup a{
+    position: absolute;
+      left: 59%;
+      top: 90.5%;
+      color: #2691d9;
+      text-decoration: none;
+
+     
+}
+.signup a:hover{
+  text-decoration: underline rgb(235, 7, 185);
+  
+}
+
+
+
+
+       
+   
